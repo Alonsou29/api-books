@@ -15,4 +15,6 @@ public interface BookService {
     void saveBook(Book book);
 
     void deleteBookById(Integer id);
+
+    Book findBookById(Integer id);
 }

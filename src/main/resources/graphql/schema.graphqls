@@ -1,6 +1,6 @@
 type Query {
     bookById(id: ID): Book
-    bookByName(name: String):Book
+    bookByTitle(name: String):Book
 }
 
 type Mutation {
